@@ -1,0 +1,64 @@
+div{
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+
+#moves, #time{
+  width 150px
+  background aliceblue
+  font-size 30px
+  font-weight bold
+}
+
+.info{
+
+}
+
+
+#gameInfo{
+  margin:30px auto;
+  width 400px
+  display flex
+  justify-content space-between
+}
+
+
+.game{
+  margin:30px auto;
+  background darkgrey
+  height 400px
+  width 400px
+  display flex
+  flex-wrap wrap
+}
+
+.rowM{
+  display flex
+}
+
+
+.cell{
+  position relative
+  border solid 2px black
+  background wheat
+  height 100px
+  width 100px
+  font-size 80px
+  text-align center
+  line-height 80px
+  cursor pointer
+}
+
+
+.empty{
+  height 100px
+  width 100px
+  opacity:0
+}
+
+
+
